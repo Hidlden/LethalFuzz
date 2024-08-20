@@ -1,0 +1,174 @@
+{
+    "comment": "Works similar to default, but it plays 'The Death That I Deservioli' if you go back into the facility after the alert appears. Mostly an example script",
+    "isAddon": true,
+    "volumeGroups": [
+        {
+            "comment": "Lowers the volume if you're crouching during the escape music",
+            "tag": "EscapeMusic",
+            "volumeLerpSpeed": 2,
+            "stoppingVolumeLerpSpeed": 0.25,
+            "volumeRules": [
+                {
+                    "comment": "Default volume",
+                    "volume": 0.7
+                }
+            ],
+            "volumeModifiers": [
+                {
+                    "comment": "Crouching volume scale",
+                    "volumeScale": 0.5,
+                    "condition": {
+                        "conditionType": "PlayerCrouching"
+                    }
+                }
+            ]
+        },
+        {
+            "comment": "Lowers the volume when crouching during the Lap2 music if you're outside the facility",
+            "tag": "Lap2Music",
+            "volumeLerpSpeed": 2,
+            "stoppingVolumeLerpSpeed": 0.25,
+            "volumeRules": [
+                {
+                    "comment": "Default volume",
+                    "volume": 0.7
+                }
+            ],
+            "volumeModifiers": [
+                {
+                    "comment": "Crouching volume scale",
+                    "volumeScale": 0.5,
+                    "condition": {
+                        "conditionType": "And",
+                        "conditions": [
+                            {
+                                "conditionType": "Not",
+                                "condition": {
+                                    "conditionType": "PlayerLocation",
+                                    "location": "Facility"
+                                }
+                            },
+                            {
+                                "conditionType": "PlayerCrouching"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "scriptEvents": [
+        {
+            "scriptEventType": "PlayMusic",
+            "gameEventType": "ShipLeavingAlertCalled",
+            "conditions": [
+                {
+                    "conditionType": "PlayerLocation",
+                    "location": "Facility"
+                }
+            ],
+            "loop": true,
+            "overlapHandling": "IgnoreTag",
+            "tag": "EscapeMusic",
+            "musicNames": [
+                "ByeByeThere.ogg"
+            ]
+        },
+        {
+            "scriptEventType": "PlayMusic",
+            "gameEventType": "ShipLeavingAlertCalled",
+            "conditions": [
+                {
+                    "conditionType":"Not",
+                    "condition": {
+                        "conditionType": "PlayerLocation",
+                        "location": "Facility"
+                    }
+                }
+            ],
+            "loop": true,
+            "overlapHandling": "IgnoreTag",
+            "tag": "EscapeMusic",
+            "musicNames": [
+                "ItsPizzaTime.ogg"
+            ]
+        },
+        {
+            "scriptEventType": "PlayMusic",
+            "gameEventType": "PlayerExitedFacility",
+            "conditions": [
+                {
+                    "conditionType": "ShipLeavingAlertCalled"
+                },
+                {
+                    "conditionType": "Not",
+                    "condition": {
+                        "conditionType": "MusicWithTagPlaying",
+                        "tag": "Lap2Music"
+                    }
+                }
+            ],
+            "loop": true,
+            "overlapHandling": "OverrideTag",
+            "tag": "EscapeMusic",
+            "musicNames": [
+                "ItsPizzaTime.ogg"
+            ]
+        },
+        {
+            "scriptEventType": "PlayMusic",
+            "gameEventType": "PlayerEnteredFacility",
+            "conditions": [
+                {
+                    "conditionType": "ShipLeavingAlertCalled"
+                }
+            ],
+            "loop": true,
+            "overlapHandling": "IgnoreTag",
+            "tag": "Lap2Music",
+            "musicNames": [
+                "TheDeathThatIDeservioli.ogg"
+            ]
+        },
+        {
+            "scriptEventType": "StopMusic",
+            "gameEventType": "PlayerEnteredFacility",
+            "targetTags": [
+                "EscapeMusic"
+            ],
+            "instant": true
+        },
+        {
+            "scriptEventType": "StopMusic",
+            "gameEventType": "ShipTakeOff",
+            "targetTags": [
+                "EscapeMusic",
+                "Lap2Music"
+            ]
+        },
+        {
+            "comment": "Plays when you die after the ship leave alert is called",
+            "scriptEventType": "PlayMusic",
+            "gameEventType": "PlayerDied",
+            "conditions": [
+                {
+                    "conditionType": "ShipLeavingAlertCalled"
+                }
+            ],
+            "overlapHandling": "overlap",
+            "musicNames": [
+                "YourFatAssSlowsYouDown.ogg"
+            ]
+        },
+        {
+            "comment": "Stops the music if you die",
+            "scriptEventType": "StopMusic",
+            "gameEventType": "PlayerDied",
+            "targetTags": [
+                "EscapeMusic",
+                "Lap2Music"
+            ],
+            "instant": true
+        }
+    ]
+}

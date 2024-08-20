@@ -1,0 +1,108 @@
+{
+    "comment": "Works similar to default, but it plays Random custom songs with volume adjustments.",
+    "isAddon": true,
+    "volumeGroups": [
+        {
+            "comment": "Escape Music Volume Adjustments",
+            "tag": "EscapeMusic",
+            "volumeLerpSpeed": 2,
+            "stoppingVolumeLerpSpeed": 0.25,
+            "volumeRules": [
+                {
+                    "comment": "Default volume",
+                    "volume": 0.5
+                }
+            ],
+            "volumeModifiers": [
+                {
+                    "comment": "Crouching volume scale inside Facility",
+                    "volumeScale": 0.45,
+                    "condition": {
+                        "conditionType": "And",
+                        "conditions": [
+                            {
+                                "conditionType": "PlayerLocation",
+                                "location": "Facility"
+                            },
+                            {
+                                "conditionType": "PlayerCrouching"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "comment": "Outside Facility",
+                    "volumeScale": 0.45,
+                    "condition": {
+                        "conditionType": "Not",
+                        "condition": {
+                            "conditionType": "PlayerLocation",
+                            "location": "Facility"
+                        }
+                    }
+                },
+                {
+                    "comment": "Crouching Outside Facility",
+                    "volumeScale": 0.4,
+                    "condition": {
+                        "conditionType": "And",
+                        "conditions": [
+                            {
+                                "conditionType": "Not",
+                                "condition": {
+                                    "conditionType": "PlayerLocation",
+                                    "location": "Facility"
+                                }
+                            },
+                            {
+                                "conditionType": "PlayerCrouching"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "comment": "Inside Ship",
+                    "volumeScale": 0.3,
+                    "condition": {
+                        "conditionType": "PlayerLocation",
+                        "location": "Ship"
+                        }
+                }
+      
+            ]
+        }
+    ],
+    "scriptEvents": [
+        {
+            "comment": "Plays music when you take the Apparatus and are alive",
+			"scriptEventType": "PlayMusic",
+            "gameEventType": "ApparatusTaken",
+			"overlapHandling": "OverrideTag",
+			"tag": "EscapeMusic",
+            "conditions": [],
+            "musicNames": [
+                "PizzaAlarm.ogg",
+                "PizzaAlarm2.ogg",
+                "MetaKnightRevengelol.ogg",
+                "WHATSGOINGONLOL.ogg",
+                "YellDeadCellLOL.ogg"
+            ]
+        },
+        {
+            "scriptEventType": "StopMusic",
+            "gameEventType": "ShipTakeOff",
+            "targetTags": [
+                "EscapeMusic"
+            ]
+        },
+        {
+            "comment": "Stops the music if you die",
+            "scriptEventType": "StopMusic",
+            "gameEventType": "PlayerDied",
+            "targetTags": [
+                "EscapeMusic"
+            ],
+            "instant": true
+        }
+    ]
+}
