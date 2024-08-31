@@ -45,29 +45,6 @@
         <FunnyNote text="Hasn't called their mother in a while." />
         <FunnyNote text="Has IP address 127.0.0.1." /> <!-- TN: This note pretends to dox the user but actually specifies the loopback IP address. -->
         <FunnyNote text="Secretly a lizard." />
-        <FunnyNote text="Kissed Dragons." />
-        <FunnyNote text="Openly a Bottom." />
-        <FunnyNote text="Plotting against the rest of the crew." />
-        <FunnyNote text="Took the express train to the afterlife, no return." />
-        <FunnyNote text="Thought they had nine lives; Death called their bluff." />
-        <FunnyNote text="Lost hide and seek with the Grim Reaper." />
-        <FunnyNote text="Sniffed a mysterious smell and found eternal darkness." />
-        <FunnyNote text="Played tag with Death and lost, permanently." />
-        <FunnyNote text="Chased their tail right into the abyss." />
-        <FunnyNote text="Pressed the wrong button, paid with their life." />
-        <FunnyNote text="Met an 'unknown' and it wasn't looking to chat." />
-        <FunnyNote text="Mistook a shadow for a friend, now they're one." />
-        <FunnyNote text="Found their 'fur-ever' home in a coffin." />
-        <FunnyNote text="Chased fireflies, caught a fatal spark." />
-        <FunnyNote text="Became one with the night, now they're a ghost." />
-        <FunnyNote text="Thought life was a cartoon; got crushed by reality." />
-        <FunnyNote text="Tried to outsmart the unknown, became a statistic." />
-        <FunnyNote text="Paused life, game over." />
-        <FunnyNote text="Curiosity killed this cat and then some." />
-        <FunnyNote text="Sniffed out danger, now pushing up daisies." />
-        <FunnyNote text="Walked into darkness, never walked out." />
-        <FunnyNote text="YOLO'd too hard, now in the afterlife club." />
-        <FunnyNote text="Discovered shadows can be deadly, now one of them." />
 
         <!--
             TN: Generic Death Messages
@@ -215,7 +192,6 @@
         <DeathEnemyTulipSnakeDrop text="Dropped by a Tulip Snake." /> <!-- TN: When the player dies of fall damage due to a Tulip Snake. -->
                 
         <DeathEnemyOldBirdRocket text="Blown up by an Old Bird." />
-        <DeathEnemyOldBirdRocket text="Woke the baby." /> <!-- TN: Old Bird makes a crying sound. -->
         <DeathEnemyOldBirdRocket text="Didn't get in the robot." /> <!-- TN: Evangelion meme -->
         
         <DeathEnemyOldBirdStomp text="Stomped by an Old Bird." />
@@ -238,6 +214,14 @@
         <DeathEnemyBarber text="Was snipped by the Barber." />
         <DeathEnemyBarber text="Was snipped in half by the Barber." />
         <DeathEnemyBarber text="Had a little too much taken off the top." />
+
+        <!--
+            TN: v60 Player Death Messages
+            Messages used for players added in v60.
+        -->
+        <DeathEnemyManeater text="Was mauled by a Maneater." />
+        <DeathEnemyManeater text="Dropped the baby." />
+        <DeathEnemyManeater text="Was a bad parent." />
 
         <!-- 
             TN: Player Death Messages
@@ -309,12 +293,30 @@
         <DeathOtherItemDropship text="Couldn't wait for their items." />
         <DeathOtherItemDropship text="Got too impatient for their items." />
 
-        <DeathOtherFacilityPit text="Fell into a pit." /> <!-- TN: Used for facility-specific falling deaths. -->
-        <DeathOtherFacilityPit text="Died in a pit." />
-        <DeathOtherFacilityPit text="Took a leap of faith, and lost." />
-
         <DeathOtherSpikeTrap text="Crushed by a Spike Trap." />
         <DeathOtherSpikeTrap text="Was turned into a pancake." />
+
+        <!-- TN: Used for falling deaths inside the facility. -->
+
+        <!-- Unknown/generic pits. -->
+        <DeathPitGeneric text="Fell into a pit." />
+
+        <!-- TN: Jumped the railing and died in the Facility layout, outside the split catwalk. -->
+        <DeathPitFacilityPit text="Fell into a pit in the Facility." />
+        <DeathPitFacilityPit text="Jumped the railing and fell." />
+
+        <!-- TN: Died to the famous split catwalk in the Facility layout. -->
+        <DeathPitFacilityCatwalkJump text="Tried to jump across the catwalk." />
+        <DeathPitFacilityCatwalkJump text="Took a leap of faith, and lost." />
+
+        <!-- TN: Died in the Mines by falling down the elevator shaft. -->
+        <DeathPitMineElevator text="Fell down the elevator shaft." />
+
+        <!-- TN: Jumped the railing and died in the Mines layout, outside the split catwalk. -->
+        <DeathPitMinePit text="Jumped the railing and fell." />
+
+        <!-- TN: Fell in a hole and died in the caves in the Mines layout. -->
+        <DeathPitMineCave text="Fell into a pit while spelunking." />
 
         <!--
             TN: Messages for the tentacle that kills players at the company building.

@@ -1,11 +1,13 @@
-# Hidden's Lethal Company modpack
+# Hidden's Lethal Company mod-pack
+
 ## _For the fuzzy company_
-This modpack is built around a large collection of fuzzy crewmates, with many additions to chaos via plenty of fine tuning.
+
+This mod-pack is built around a large collection of fuzzy crew-mates, with many additions to chaos via plenty of fine tuning.
 The pack consists of QoL mods, Exploration mods, Additional content for extended playtime, and overall chaotic modifications so that it's never an easy shift.
 Navigation has also been set as blind and random, so you'll never know what you get moon, weather, or dungeon.
 
-Thunderstore Link : https://thunderstore.io/c/lethal-company/p/Hidlden/LethalFuzz/
-Github Link : https://github.com/Hidlden/LethalFuzz
+Thunderstore Link : <https://thunderstore.io/c/lethal-company/p/Hidlden/LethalFuzz/>
+Github Link : <https://github.com/Hidlden/LethalFuzz>
 
 ![](https://i.imgur.com/Xo6Gs3r.png)
 Wee
@@ -14,6 +16,7 @@ Wee
 Woo
 
 ## QoL
+
 - EnemySoundFixes: Fixes numerous issues with missing sound effects, or SFX playing when they shouldn't.
 - StarlancerAIFix: Automatically assigns interior/exterior AI for enemies based on their spawn location. Also fixes a null reference exception regarding EnableEnemyMesh. Part of the Starlancer Series!.
 - CullFactory: Stops rendering interior rooms that aren't visible Helps with performance without affecting visuals.
@@ -21,7 +24,6 @@ Woo
 - GeneralImprovements: Fixes many bugs and adds many QoL improvements and optional tweaks. Very configurable.
 - EladsHUD: Now with anti-aliasing!.
 - LCMaxSoundsFix: Simple mod that increase max number of simultaneous playing sounds, hopefully fixing missing footsteps and other missing sound problems.
-- EmployeeAssignments_Updater_Fix: Disables the broken update checker for EmployeeAssignments.
 - TerminalConflictFix: Narrows down terminal conflicts if more letters match one word than another.
 - ItemClippingFix: Fixes ground/storage clipping & rotation on almost all items.
 - FixPluginTypesSerialization: Fix custom Serializable structs and such not properly getting deserialized by Unity.
@@ -38,6 +40,7 @@ Woo
 - NoSellLimit: Remove the limit of items that can be placed on the deposit desk.
 
 ## Additional content
+
 - StarlancerMoons: 4 new moons, 1 free, 1 intermediate, 1 late-game, and 1 hidden. Part of the Starlancer series!.
 - Locker: A new and unique enemy that acts as a situational threat, praying on player's perception.
 - ShipWindows: Adds glass windows to the ship so you can see what's going on outside.
@@ -49,7 +52,6 @@ Woo
 - Sector0_Interior: Sector-0's Interior, an ominous secret awaits.
 - Haunted_Harpist: Adds several ghost enemies to the game.
 - Great_Asset_Disco_Song: Replacement song for the Disco Ball. Something a little more chill/disco/great assety.
-- MirrorDecor: Adds a working mirror decoration that you can buy for your ship!.
 - Gordion_Sect0: A custom moon based on the mysteries behind the Company Building.
 - LCBetterSaves: Have as many saves as you want! (And rename them, too!).
 - ShowCapacity: Displays remaining capacity of paint spray and TZP.
@@ -65,9 +67,11 @@ Woo
 - ImmersiveScrap: Adds a lot of new lore-friendly scraps for your game. Assets have been cleaned and optimized for zero performance issue.
 - RandomSlimeColor: Give you slimes some new colors!.
 - LethalCreature: Scurry about as a scavenging creature.
-
+- NeedyCats: You like cats? The company likes cats too! Find them roaming the various abandoned facilities and bring them home!
+- Wesleys_Moons: Wesley moons bundle.
 
 ## Mechanic Adjustments
+
 - Lategame_Upgrades: Lightning Rod alternative modes, more hunter samples and more!.
 - FairAI: Mod To Make Entities Less Racist. Everyone that can die will die by stepping on land mines, sea mine, boombas, turrets, and config support. Now with more config options including checking for players nearby before anything can happen in the mod!.
 - ReservedItemSlotCore: The core mod for all ReservedItemSlot mods. Adds functionality for all ReservedItemSlot mods and adds API functions!.
@@ -88,11 +92,12 @@ Woo
 - ReservedFlashlightSlot: Gives a dedicated Flashlight slot on the right side of your screen that can optionally be purchased! Can be toggled with to activate the Flashlight at anytime.
 - LethalFashion: Unlocks all of the base game suits immediately for free.
 - SnatchinBracken: SnatchinBracken modifies the behavior of Bracken enemies. Instead of instantly killing players on contact, Brackens now capture and drag players to the infamous Bracken Room.
-- Solos_Bodycams: Replaces the ships internal camera (right monitor) with bodycams that are linked to the radar.
-- EmployeeAssignments: Personal assignments for employees, that can be completed for extra cash.
-- WeatherMultipliers: Moons with active weather will contain scrap with higher value.
+- Helmet_Cameras: For monitoring first person cameras on player's helmets. For best "Camera Man" experience.
+- Symbiosis: Make items, monsters and players interact together.
+- Diversity: Diversity is a mod that revamps few aspects of the game. Generally the entities itself.
 
 ## Chaos
+
 - LittleCompany: A Lethal Company mod for anything size-related! Includes a shrink ray, potions, enemy behaviours, events and more.
 - Scopophobia: Adds the Shy Guy (SCP-096) to Lethal Company. Fully custom.
 animations and behavior. Model from SCP: Containment Breach.
@@ -112,9 +117,10 @@ animations and behavior. Model from SCP: Containment Breach.
 - LethalFuzz_Cruiser_Audio: Replacement audio for the Company Cruiser. Curated and created for the Lethal Fuzz crew.
 - FacilityMeltdown: Maybe taking the apparatus out isn't such a great idea.
 - LethalEscape: A mod that aims to allow almost every inside creature to escape to the outside so that nowhere is safe!.
-
+- Backrooms: Explore the Backrooms, a surreal labyrinth in this mod. Navigate endless, eerie spaces, and uncover mysteries.
 
 ## adhoc/Libs
+
 - LethalCompanyVR: Collecting Scrap in VR.
 - Custom_Item_Behaviour_Library: Library focused on providing custom GrabbableObject scripts which can be used on item implementations for other modders.
 - LethalNetworkAPI: A library/API to allow developers to easily add networking to their mods.
@@ -140,3 +146,6 @@ animations and behavior. Model from SCP: Containment Breach.
 - HookGenPatcher: Generates MonoMod.RuntimeDetour.HookGen's MMHOOK file during the BepInEx preloader phase.
 - LCSoundTool: Let's you easily load audio files, replace in game audio, send audio over the network and log any audio playback into console.
 - Runtime_Netcode_Patcher: Patches Netcode RPC methods during runtime utilizing Harmony.
+- GraphicsAPI: Tools for Diversity mod-pack.
+- LCCutscene: Tools for Diversity mod-pack.
+- NuclearLibrary: Library for easy mod development.
