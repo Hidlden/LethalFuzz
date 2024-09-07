@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+    <tags>
+        <tag language="en" />
+    </tags>
+    <strings>
+        <!--
+            Translation Notes:
+            This is the default localization file for Coroner.
+            
+            By default, any of the `FunnyNote` or `Death` strings are dynamically chosen at random.
+            If the `SeriousDeathMessages` option is enabled, the first `Death` message found in the file is used,
+                so make this one literal and specific.
+            The other ones can be puns or jokes, and options can be added or removed as needed, just make sure
+                to keep the correct tags, and make sure that there is at least one message for each `Death` type.
+        -->
+
+        <!-- TN: Killed by a Knight -->
+        <DeathEnemyKnight text="Ripped to shreds by a Knight." />
+        <DeathEnemyKnight text="Got in a staring contest with a Knight." />
+        <DeathEnemyKnight text="Fell victim to the magician's toys." />			<!-- the magician is Patchy -->
+        <DeathEnemyKnight text="Couldn't shield the fatal blow." /> 			<!-- knight/shield pun -->
+		
+		<!-- TN: Killed by a Maid -->
+        <DeathEnemyMaid text="Stabbed to death by the Maid." />
+        <DeathEnemyMaid text="Found out just how sharp her skills were." />
+        <DeathEnemyMaid text="Got served on a plater." />			
+        <DeathEnemyMaid text="Liked to play with dolls." />
+		
+		<!-- TN: Fell into the void/pit/Yukari hole -->
+        <DeathPitVoid text="Fell into the void." />
+        <DeathPitVoid text="Got gapped." />							<!-- Teleported into Gensokyo to die (Yukari ref) -->			
+        <DeathPitVoid text="Consumed by the void." />				
+        <DeathPitVoid text="Faded into oblivion." />
+		
+		<!-- TN: Killed by the Revenant/Ghost Knight that spawns from a Maid's death -->
+        <DeathEnemyGhostKnight text="Ripped to shreds by a Revenant." />
+        <DeathEnemyGhostKnight text="Got body-checked by a ghost." />				
+        <DeathEnemyGhostKnight text="Tried to outrun the Revenant." />				
+        <DeathEnemyGhostKnight text="Spooked to death." />
+		
+		<!-- TN: Killed by a player with the Maid's Knife -->
+        <DeathPlayerMaidKnife text="Was stabbed to death by a coworker." />
+        <DeathPlayerMaidKnife text="Got backstabbed by a coworker." />				
+        <DeathPlayerMaidKnife text="Got cut down to size." />				
+        <DeathPlayerMaidKnife text="Found themselves on the chopping block." />
+		
+		<!-- TN: Killed by a player feeding the Maid's Knife with their blood -->
+        <DeathPlayerMaidKnifeFeed text="Stabbed themselves to death." />
+        <DeathPlayerMaidKnifeFeed text="Sacrificed their life for the cause." />				
+        <DeathPlayerMaidKnifeFeed text="Became a fatal garnish." />				
+        <DeathPlayerMaidKnifeFeed text="Offered too much blood." />
+		
+		<!-- TN: Killed by a player attacking a coworker with a powered up Maid's Knife -->
+		<!-- TN: resulting in the damage returning back to the attacker -->
+        <DeathPlayerMaidKnifeFriendlyFire text="Attempted to stab their coworker." />
+        <DeathPlayerMaidKnifeFriendlyFire text="Tried double-crossing their ally." />				
+        <DeathPlayerMaidKnifeFriendlyFire text="Got a taste of their own medicine." />				
+        <DeathPlayerMaidKnifeFriendlyFire text="Discovered their own attack had a return policy." />
+		
+    </strings>
+</base>

@@ -38,6 +38,7 @@ Woo
 - LobbyCompatibility: Towards a future with fewer lobby incompatibility errors.
 - ShipLoot: Reliably shows the total value of all scrap in your ship.
 - NoSellLimit: Remove the limit of items that can be placed on the deposit desk.
+- CompanyCruiserFix: Fixes Dropship throws NullReferenceException on custom moons.
 
 ## Additional content
 
@@ -105,8 +106,7 @@ animations and behavior. Model from SCP: Containment Breach.
 - PizzaTowerEscapeMusic: Plays music from Pizza Tower when the early ship leave alert appears.
 - Groan_Tube_Scrap: Adds the Groan Tube as a scrap, the one that goes 'AAAAEEEEEEEUUUU' when you flip it. (aka Giggle stick).
 - Football: Adds Football from mazingDOG Comics as an entity, she wants to play Simon Says. just do as she says.
-- ghostCodes: There's a ghost in the terminal and it's sending random broadcast codes to mess with the facility! Also now featuring ghost girl enhancements.
-- RandomMoon: Randomize moon on level pull, Where will you go today?.
+- RandomMoonFX: Randomize the moon every day upon using the ship's lever. Compatible with LethalLevelLoader.
 - LandMineFartReverb: They say you fart up to three hours after you die. Better go out with a big one.
 - CoilHeadStare: Makes the Coil Head slowly turn and face you even while you are looking directly at it. Reminding you that it only needs you to falter for a single moment. Extra feature: Coil Head spring bounces when hit with a shovel.
 - MyLeg: Replaces the DieFromFallDamageSFX with a hard hit followed by the 'My Leg' guy from Spongebob.
@@ -117,7 +117,6 @@ animations and behavior. Model from SCP: Containment Breach.
 - LethalFuzz_Cruiser_Audio: Replacement audio for the Company Cruiser. Curated and created for the Lethal Fuzz crew.
 - FacilityMeltdown: Maybe taking the apparatus out isn't such a great idea.
 - LethalEscape: A mod that aims to allow almost every inside creature to escape to the outside so that nowhere is safe!.
-- Backrooms: Explore the Backrooms, a surreal labyrinth in this mod. Navigate endless, eerie spaces, and uncover mysteries.
 
 ## adhoc/Libs
 

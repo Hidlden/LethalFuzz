@@ -1,5 +1,38 @@
 # Versions
 
+# 25.0.0
+
+<ul>
+    <li> Removed deprecated and broken mods. </li>
+    <li> Random Moon will now exclude the broken Liquidation map that is a vanilla disabled map of the standalone game. </li>
+    <li> Cruiser fixes. </li>
+    <li> And config adjustments to spawn rates of mobs and map chances. </li>
+</ul>
+
+### Removed mods [MA]
+
+        Backrooms-Backrooms-0.1.3
+                Broken mod still, so have removed it due to the inconvenience it has on players.
+        Beepsterr-RandomMoon-1.0.0
+                Mod was not working as expected and has been replaced with a forked version with the appropriate fixes now.
+        darmuh-ghostCodes-2.0.6
+                Deprecated and no longer working so it has been removed.
+### Added mods [MA]
+
+        DiFFoZ-CompanyCruiserFix-1.0.5
+                Additional fixes to the Company Cruiser issues that had been occurring.
+        Zigzag-RandomMoonFX-1.1.0
+                Forked version of the 'Beepsterr-RandomMoon-1.0.0' mod, with the appropriate fixes.
+
+### Config changes [MI]
+
+        Updated the configurations to match the latest versions generated after any mod updates.
+        Configs for Mobs and Map chances have been adjusted so more variety is available, whilst lessening the chances of unfavourable moons being selected.
+
+### Updated mods [PA]
+
+        Adjusted the mod-pack to have the latest version of updates.
+
 # 24.0.0
 
 <ul>
