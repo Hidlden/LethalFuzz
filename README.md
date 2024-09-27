@@ -37,7 +37,6 @@ Woo
 - VoiceHUD: Displays the ingame push-to-talk icon, when detecting voice activity.
 - LobbyCompatibility: Towards a future with fewer lobby incompatibility errors.
 - ShipLoot: Reliably shows the total value of all scrap in your ship.
-- NoSellLimit: Remove the limit of items that can be placed on the deposit desk.
 - CompanyCruiserFix: Fixes Dropship throws NullReferenceException on custom moons.
 
 ## Additional content
@@ -45,8 +44,6 @@ Woo
 - StarlancerMoons: 4 new moons, 1 free, 1 intermediate, 1 late-game, and 1 hidden. Part of the Starlancer series!.
 - Locker: A new and unique enemy that acts as a situational threat, praying on player's perception.
 - ShipWindows: Adds glass windows to the ship so you can see what's going on outside.
-- Portable_Teleporters: Mod focused on providing two shop items which can be used to teleport back to the ship by interacting with them.
-- Peeper: Mod focused on providing a shop item which can be used to stop Coil-Head entities from moving when placed on the ground.
 - Mimics: Adds a dangerous new monster to the game. Can you figure out what's real or will you be devoured?.
 - Tomb: adds new interior a game. by KayNetsua/tolian!.
 - CustomStoryLogs: Allows the addition of custom story logs.
@@ -62,14 +59,11 @@ Woo
 - LC_Office: Adds new office-themed interior, and new enemies!.
 - Ganimedes: A challenging late game moon with hidden places, parkour shortcuts, 4 fire exits and new themed scrap with unique features!.
 - E_Gypt_Moon: Adds the intermediate-level moon 10-EGypt to the game.
-- ScarletDevilMansion: Adds the Scarlet Devil Mansion from Touhou as a possible dungeon to the snow maps.
 - Shopping_Cart: Mod focused on providing a scrap item in which you can carry items on it to spare your inventory slots.
-- Wheelbarrow: Mod focused on providing a store item in which you can carry items on it to spare your inventory slots.
 - ImmersiveScrap: Adds a lot of new lore-friendly scraps for your game. Assets have been cleaned and optimized for zero performance issue.
 - RandomSlimeColor: Give you slimes some new colors!.
 - LethalCreature: Scurry about as a scavenging creature.
-- NeedyCats: You like cats? The company likes cats too! Find them roaming the various abandoned facilities and bring them home!
-- Wesleys_Moons: Wesley moons bundle.
+- Wesleys_Moons: Custom moons picked from selection for fine tuned fun!
 
 ## Mechanic Adjustments
 
@@ -108,7 +102,6 @@ animations and behavior. Model from SCP: Containment Breach.
 - Football: Adds Football from mazingDOG Comics as an entity, she wants to play Simon Says. just do as she says.
 - RandomMoonFX: Randomize the moon every day upon using the ship's lever. Compatible with LethalLevelLoader.
 - LandMineFartReverb: They say you fart up to three hours after you die. Better go out with a big one.
-- CoilHeadStare: Makes the Coil Head slowly turn and face you even while you are looking directly at it. Reminding you that it only needs you to falter for a single moment. Extra feature: Coil Head spring bounces when hit with a shovel.
 - MyLeg: Replaces the DieFromFallDamageSFX with a hard hit followed by the 'My Leg' guy from Spongebob.
 - MoreScreams: This modification allows you to hear players' voices for 2 seconds (adjustable) after they die.
 - ImmortalSnail: Adds the legendary Immortal Snail as an enemy.
@@ -120,7 +113,6 @@ animations and behavior. Model from SCP: Containment Breach.
 
 ## adhoc/Libs
 
-- LethalCompanyVR: Collecting Scrap in VR.
 - Custom_Item_Behaviour_Library: Library focused on providing custom GrabbableObject scripts which can be used on item implementations for other modders.
 - LethalNetworkAPI: A library/API to allow developers to easily add networking to their mods.
 - DungeonGenerationPlus: API to expand the compatibilities of Lethal Company's dungeon generation.
