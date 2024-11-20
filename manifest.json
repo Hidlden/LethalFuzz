@@ -1,6 +1,6 @@
 {
     "name": "LethalFuzz",
-    "version_number": "27.0.0",
+    "version_number": "27.0.1",
     "website_url": "https://github.com/Hidlden/LethalFuzz",
     "description": "Lethal activities for the Fuzz.",
     "dependencies": [
