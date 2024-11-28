@@ -1,4 +1,100 @@
 # Versions
+# 28.0.0
+
+<ul>
+    <li> New gameplay mechanics, experiences, and overall changes to the configs. </li>
+    <li> Additional moons included. </li>
+    <li> Customised and fine-tuned moons, dungeons, item spawn percentage with the tie to said items for the theme of that moon/dungeon, monster percentages, and so much more tweaking.</li>
+    <li> Expect things to be a little different, and experiencing items, monsters, and others, which have been part of this pack, but never seen before. Fear them, they are spoopy and some fun! ....some. </li>
+    <li> Removed modifications that are no longer required. </li>
+    <li> Updated all mopdifications to their latest and working versions. </li>
+    <li> Removed all dependencies of modifications to clean up the manifest, and remove depricated dependencies from being auto pulled or installed in the pack when they are no longer needed. (Dependencies are auto-pulled by download/update of base mods)</li>
+    <li> Overall modpack rework. </li>
+</ul>
+
+### Removed mods [MA]
+
+        Pooble-LCBetterSaves
+                LCBetterSaves, is an unused modification, which is no longer required for this modpack. This can itself be installed clientside, due to not being reliant for the host to have it installed.
+        Piggy-ShowCapacity
+                ShowCapacity, is an unused modification, which is no longer required for this modpack. This mod itself is no longer needed due to an already in-use modification adding this funtionality to it, deeming this no longer required.
+        NutNutty-SellTracker
+                SellTracker, is an unused modification, which is no longer required for this modpack. This mod was never really used as such, and deemed to be an addition to the culling of mods.
+        NotAtomicBomb-Terminal_Clock
+                Terminal_Clock, is an unused modification, which is no longer required for this modpack. This mod is no longer required due to the functionality being part of another modification.
+        Monkeytype-HideChat
+                HideChat, is an unused modification, which is no longer required for this modpack. This mod never really worked, and another modpack that is in-use, provides the same functionality for this option also.
+        LethalAPI-LethalAPI_Terminal
+                LethalAPI_Terminal, is an unused modification, which is no longer required for this modpack. This mod/dependancy is no longer required due to being a dependency for "Terminal_Clock", thus is also up for the choppping block.
+        Bobbie-UniTask
+                UniTask, is an unused modification, which is no longer required for this modpack. An additional modpack that is no longer used or required, and will be escorted to the firing wall like the others.
+        RosiePies-Gordion_Sect0-2.3.1
+                Gordion_Sect0, is no longer required due to it featured content as part of the developers "Gordion Saga" pack.
+        RosiePies-Sector0_Interior-2.1.2
+                Sector0_Interior, is no longer required due to it featured content as part of the developers "Gordion Saga" pack.
+        DiFFoZ-CompanyCruiserFix
+                CompanyCruiserFix, is no longer working and required due to it being marked as depricated.
+        Zaggy1024-PathfindingLagFix
+                PathfindingLagFix, removal due to no longer requiring this change and being depricated.
+        SylviBlossom-TerminalConflictFix
+                TerminalConflictFix, no longer required due to this being a belated issue which is no longer impacting the modpack and gameplay.
+        RosiePies-RoseLib
+                RoseLib, library that is no longer required, or requested as a dependency from the primary focused mods we have selected for the pack.
+        All Dependencies.
+                Only the mods we are of interest in have been included, and all dependencies are left out, due to them already being auto pulled with the pack when downloaded/updated. To help clear through the clutter, and elimiate manually removing depricated mods that are no longer listed as a dependency for it's previously primary base mod that used it, and then left to rot in the pack....
+
+### Added mods [MA]
+
+        33mamaster-LifetimeCruiserWarranty
+                LifetimeCruiserWarranty, allows all future re-purchasing of the Company Cruiser to be covered by the warranty.
+        RosiePies-Gordion_Saga
+                Gordion_Saga, adds Gordion and its interior to the modpack now, including additional mooons, logs, and other mysteries of the Company!
+        Owen3H-IntroTweaks
+                IntroTweaks, applies seamless skipping of intro/menu screens. Includes various fixes and useful options.
+        Sconeys-Haunted
+                Haunted, adds more spoop, but mostly more inconvenience to the employees doing their job. Now they can work and be haunted while looking for scrap.
+        ProjectSCP-SCP1507
+                SCP1507, adds SCP-1507 to Lethal Company as a new flock based enemy.
+        TheWeavers-LethalBestiary
+                LethalBestiary, adds a library for registering new monsters which brings a bunch of useful methods for monsters!
+        AuronUnicorn-NowhereKingJester
+                NowhereKingJester, replaces Jester windup audio with Nowhere King's Lullaby
+        darmuh-ghostCodes
+                ghostCodes, introduces a ghost in the terminal, and it's sending random broadcast codes to mess with the facility!
+        darmuh-OpenLib
+                OpenLib, is an Open-source development library for LethalCompany, initially created for use with darmuh's Mods.
+
+### Config changes [MI]
+
+        Config changes have been vastly changed, including LethalLevelLoader, which i have personally introduced a full item dictionary, with customised prices, spawning percentages, and a more refined method for the correct themed items and dungeons that are related to the theme of the moon. This is to keep the flow of the theme and environment to a similar track than dealing with the Egypt custom moon, having a office interior, rather than the actual pyramids dungeon... That was just silly...
+
+### Updated mods [PA]
+
+        All dependencies have been removed from the packs manifest, and reworked completely, so that any of said dependencies are pulled down with the specified mod that we want. This was a great suggestion by the BadDragon (Phyore), who rightly pointed out that it elimiates any depricated mods from the pack when i update it in the future. Saving time, effort, and my spicy-ass brain from forgetting to remove the depricated mod, which also leads to bugs, breaks, and overall desync.
+
+# 27.0.1
+
+<ul>
+    <li> Updated MAnifest Dependencies with Phyores previously working packs listed dependencies and mod versions, before the break in the recent updates. </li>
+    <li> This should be a working version now to mitigate the bugs that have been faced with recently. </li>
+    <li> Al credit for this patch goes to Phyore <3 </li>
+</ul>
+
+### Removed mods [MA]
+
+        There has been no removal of mods.
+
+### Added mods [MA]
+
+        No additional mods.
+
+### Config changes [MI]
+
+        Config changes have stayed the same.
+
+### Updated mods [PA]
+
+        The dependencies list has been updated with the working versions of a previous 27.0.0 pack before specific mod updates led to bugs and breaks with hosting sessions.
 
 # 27.0.0
 
