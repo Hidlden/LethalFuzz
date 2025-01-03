@@ -99,7 +99,7 @@ Woo
 - Emergency_Dice: Last ray of hope in a hopeless situation.
 - FacilityMeltdown: Maybe taking the apparatus out isn't such a great idea.
 - Football: Adds Football from mazingDOG Comics as an entity, she wants to play Simon Says. just do as she says.
-- ghostCodes: There's a ghost in the terminal and it's sending random broadcast codes to mess with the facility.
+- GhostCodes: There's a ghost in the terminal and it's sending random broadcast codes to mess with the facility.
 - Groan_Tube_Scrap: Adds the Groan Tube as a scrap, the one that goes 'AAAAEEEEEEEUUUU' when you flip it.
 - ImmortalSnail: Adds the legendary Immortal Snail as an enemy.
 - LandMineFartReverb: They say you fart up to three hours after you die. Better go out with a big one.
