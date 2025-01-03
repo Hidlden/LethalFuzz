@@ -1,27 +1,12 @@
 # Versions
-# 27.0.1
+
+# 28.2.0
 
 <ul>
-    <li> Updated MAnifest Dependencies with Phyores previously working packs listed dependencies and mod versions, before the break in the recent updates. </li>
-    <li> This should be a working version now to mitigate the bugs that have been faced with recently. </li>
-    <li> Al credit for this patch goes to Phyore <3 </li>
+    <li> Updated various mods to the latest version. </li>
+    <li> Readme Capitalisation update, Changelog updated </li>
 </ul>
-
-### Removed mods [MA]
-
-        There has been no removal of mods.
-
-### Added mods [MA]
-
-        No additional mods.
-
-### Config changes [MI]
-
-        Config changes have stayed the same.
-
-### Updated mods [PA]
-
-        The dependencies list has been updated with the working versions of a previous 27.0.0 pack before specific mod updates led to bugs and breaks with hosting sessions.
+        
 
 # 28.1.0
 
