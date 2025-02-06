@@ -1,4 +1,33 @@
 # Versions
+# 29.0.0
+
+<ul>
+    <li> Long due patch for updating mods to latest versions. </li>
+    <li> Dependencies updated, along with purging no longer required lib and QoL modifications due to deprication. </li>
+    <li> Added additional content for spoop and chaos. </li>
+</ul>
+
+### Removed mods [MA]
+
+        Cull Factory
+                Issues with culling mobs and content led to bugs and issues with generating NPCs and dungeon interior.
+        DungeonGenerationPlus
+                Until this is updated to support the latest version of LLL, it will need to be removed from the pack to ensure no issues with level generation. Including prevention of a bug that would cause the ship to never leave orbit.
+        Haunted
+                Mob failed to load or run correctly when spawned, spammed the console, and overall caused issues with the modpack so it had to be purged.
+        Any unwanted dependencies.
+
+### Added mods [MA]
+
+        Surfaced
+                Additional content and chaos added.
+
+### Config changes [MI]
+
+        LethalLevelLoader config
+                Mass customisation with the LLL Config to ensure that there is a large quantity of custom and world/moon/dungeon specific items spawned, mobs, and generation choice. To give a more content filled and variety for gameplay.
+        Additional configs adjusted
+                Additional configurations changed to add a more specific style gameplay, with more variety and replayability.
 
 # 28.1.0
 
