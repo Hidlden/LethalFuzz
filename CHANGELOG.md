@@ -1,4 +1,40 @@
 # Versions
+# 29.1.0
+
+<ul>
+    <li> Dependencies udpated to latest versions. </li>
+    <li> Removed mods that have been causing issues with gameplay. </li>
+    <li> Adjust configs after testing, for smoother gamerplay and less change of bugs occuring. </li>
+</ul>
+
+### Removed mods [MA]
+
+        RandomMoonFX
+                Temporary until LLL fixes their changes with pre-loaded custom moons, along with DungeonGen conflicting with the most recent LLL Version, and other modifications.
+        DungeonGenerationPlus (Temporarily need to disable this mod in R2ModManager)
+                This mod is causing a large amount of conflict with mods due to not supporting the latests LLL and conflicting with additional dependencies and modifications.
+
+### Added mods [MA]
+
+        LethalFuzzTV
+                A fine selection you have on the screen sir... but... at what cost of our already decreasing production levels!!
+
+### Config changes [MI]
+
+        LethalLevelLoader config
+                Adjustments to level generation.
+                Dungeon max values increased.
+                Adjustments to pricing of levels which have been reintroduced, due to RandomMoonFX being disabled/removed temporarily.
+                Terminal 'Moons' query adjusted for showing results and disabling specific moons temporarily.
+        Toy Box config
+                Halloween event disabled.
+        Additional configs adjusted
+                Additional configurations changed to resolve some issues when testing.
+
+### Updated mods [PA]
+
+        All mods and dependencies have been updated to their latest versions.
+
 # 29.0.0
 
 <ul>
