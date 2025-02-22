@@ -1,4 +1,27 @@
 # Versions
+# 29.2.0
+
+<ul>
+    <li> Dependencies udpated to latest versions. </li>
+    <li> Adjust configs to reflect changes with their respected modifications/dependencies update. </li>
+</ul>
+
+### Removed mods [MA]
+
+        No mods removed in this patch.
+
+### Added mods [MA]
+
+        No mods Added in this patch.
+
+### Config changes [MI]
+
+        Updated all configs that needed to reflect the changes within the updated modification/dependencies.
+
+### Updated mods [PA]
+
+        All mods and dependencies have been updated to their latest versions.
+
 # 29.1.0
 
 <ul>
