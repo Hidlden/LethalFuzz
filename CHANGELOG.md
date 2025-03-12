@@ -1,4 +1,32 @@
 # Versions
+# 29.3.0
+
+<ul>
+    <li> The Company has acknowledged existence of the Lethal Crews Meu'nion during the bloody, and high casualty strike that has been on-going. </li>
+    <li> The Company, along with the representative Meu'nion Nya'gotiator, have come to an agreement that the costs of fuel and planety entry, are to forego a discount by 50% going forward. </li>
+    <li> Congration to the Meu'nion, their representative Nya'gotiator, and their success in negaotiations! </li>
+    <li> We, The Company, are proud, and pleased for the return of our workers... </li>
+    <li> On a seperate announcement, the courier of the Meu'nion's representative Nya'gotiator, has had a critial fault with their Nya'vigation, leading to the collision of the local Dwarf Star. </li>
+    <li> Dependencies udpated to latest versions. </li>
+    <li> Adjust configs to reflect changes with their respected modifications/dependencies update. </li>
+</ul>
+
+### Removed mods [MA]
+
+        No mods removed in this patch.
+
+### Added mods [MA]
+
+        No mods Added in this patch.
+
+### Config changes [MI]
+
+        Adjusted Lethal Level Loader config to feature halved prices for each moon.
+
+### Updated mods [PA]
+
+        All mods and dependencies have been updated to their latest versions.
+
 # 29.2.1
 
 <ul>
