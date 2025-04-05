@@ -1,4 +1,29 @@
 # Versions
+# 29.4.0
+
+<ul>
+    <li> Included a number of new configs in the Modpack to ensure specified adjustments are applied to all players. </li>
+    <li> Dependencies udpated to latest versions. </li>
+    <li> Adjust configs to reflect changes with their respected modifications/dependencies update. </li>
+</ul>
+
+### Removed mods [MA]
+
+        No mods removed in this patch.
+
+### Added mods [MA]
+
+        No mods Added in this patch.
+
+### Config changes [MI]
+
+        Adjusted a number of configs to reflect the changes made by the current versions, which have been re-written for a clearer and cleaner layout.
+        New configs that have been generated from specific modifications, and now re-configured to be featured in the LethalFuzz modpack.
+
+### Updated mods [PA]
+
+        All mods and dependencies have been updated to their latest versions.
+
 # 29.3.0
 
 <ul>
